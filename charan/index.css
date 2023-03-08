@@ -84,7 +84,7 @@ a{
 .col-2 img{
     max-width: 100%;
     padding: 50px 0 0 0;
-    height: 600px;
+    height: 700px;
     width: 800px;
 }
 .col-2 h1{
@@ -216,17 +216,6 @@ a{
     bottom: 0;
     left: 50%;
 }
-.col-1{
-    min-width: 100px;
-    padding: 10px;
-    
-}
-.col-1 img{
-    height: 200px;
-    width: 270px;
-    border-radius: 10px;
-}
-
 .box-1{
     background-color: #fff;
     border-radius: 10px;
@@ -239,6 +228,67 @@ a{
 .box-1 i{
     color: #32715a;
 }
+.col-1{
+    min-width: 100px;
+    padding: 10px;
+    
+}
+.col-1 img{
+    height: 250px;
+    width: 270px;
+    border-radius: 10px;
+}
+.offer{
+    background:radial-gradient(white,rgb(117, 209, 117));
+    margin: 5px;
+    padding: 30px 0;
+}
+.deal{
+    text-align: center;
+    color:#3C6255;
+    position: relative;
+    line-height: 60px;
+}
+.deal::after{
+    content: '';
+    width: 140px;
+    height: 4px;
+    background: #282A35;
+    border-radius: 5px;
+    position: absolute;
+    transform: translate(-50%);
+    bottom: 0;
+    left: 50%;
+    margin-bottom: 1px;
+}
+.col-3 img{
+    height: 300px;
+    padding-left: 200px;
+}
+.col-4 p{
+    font-size: 15px;
+    float: right;
+    margin-top: -260px;
+    padding-right: 660px;
+    font-weight: 500;
+}
+.col-4 h1{
+    float: right;
+    margin-top: -230px;
+    padding-right: 245px;
+    font-size: 40px;
+}
+.col-4 small{
+    font-size: 12px;
+    float: right;
+    margin-top: -170px;
+    padding-right: 183px;
+}
+#btn1{
+    float: right;
+    margin-top: -100px;
+    margin-right:700px;
+}
 .box-1 button{
     padding: 6px 8px;
     background-color: #04AA6D;
@@ -247,7 +297,7 @@ a{
     color: #fff;
 }
 .row-1{
-    background:rgb(236, 236, 159);
+    background:rgba(246, 246, 191, 0.818);
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -298,7 +348,7 @@ a{
     list-style-type: none;
 }
 .copy{
-    background:rgb(236, 236, 159);
+    background:rgba(246, 246, 191, 0.818);
     margin-top: 0px;
     padding-top: 0px;
 }
