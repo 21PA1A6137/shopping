@@ -7,8 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="header">
@@ -17,15 +18,25 @@
             <div class="logo">
                 <img src="images/logo.jpg" alt="" width="60px" style="border-radius: 50%;">
             </div>
-            <nav>
+            <div class="menu-bar">
                 <ul>
-                    <li><a href="#" id="home">HOME</a></li>
-                    <li><a href="#" id="product">CATEGORIES</a></li>
-                    <li><a href="#" id="account">ACCOUNT</a></li>
-                    <li><a href="#" id="contact">CONTACT</a></li>
+                    <li><a href="#" class="home">HOME</a></li>
+                    <li><a href="#" class="product">CATEGORIES <i class="fas fa-caret-down"></i></a>
+                        <div class="drop-down">
+                            <ul>
+                                <li><a href="#mens-wear">MENS WEAR</a></li>
+                                <li><a href="#womens-wear">WOMENS WEAR</a></li>
+                                <li><a href="#foot-wear">FOOT WEAR</a></li>
+                                <li><a href="#accessories">ACCESSORIES</a></li>
+                                <li class="last"><a href="#reviews">REVIEWS</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="account">ACCOUNT</a></li>
+                    <li><a href="#" class="contact">SIGN IN</a></li>
                     <li id="cart"><i class="ri-shopping-cart-2-fill"></i></li>
                 </ul>
-            </nav>
+            </div>
         </div>
         <div class="row">
             <div class="col-2">
@@ -37,313 +48,312 @@
                 <img src="images/bgimage.png" alt="">
             </div>
         </div>
+    </div></div>
+    <h2 class="about">ABOUT US</h2>
+    <div class="aboutus">
+        <div>
+            <img src="images/about.png" alt="" height="270px" width="300px">
+        </div>
+        <div class="para">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, culpa tempora, incidunt ipsa modi facilis repudiandae cumque accusamus magnam excepturi mollitia eligendi. Perferendis dolorum facere nobis, veniam animi, id modi est odio officiis itaque vero, illo eligendi perspiciatis atque quaerat voluptate. Quaerat nam natus earum sunt quisquam illum quas blanditiis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla in vero perferendis odio iusto nam non dicta! Commodi, necessitatibus tempore?</p>
+        </div>
     </div>
-</div>
-
-
-<h2 class="about">ABOUT US</h2>
-<div class="aboutus">
-    <div>
-        <img src="images/about.png" alt="" height="270px" width="300px">
-    </div>
-    <div class="para">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, culpa tempora, incidunt ipsa modi facilis repudiandae cumque accusamus magnam excepturi mollitia eligendi. Perferendis dolorum facere nobis, veniam animi, id modi est odio officiis itaque vero, illo eligendi perspiciatis atque quaerat voluptate. Quaerat nam natus earum sunt quisquam illum quas blanditiis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla in vero perferendis odio iusto nam non dicta! Commodi, necessitatibus tempore?</p>
-    </div>
-</div>
 
 <!----------MENS WEAR-------------->
 
 
-<div class="category">
-    <h1 class="mens">MEN'S WEAR</h1>
-    <div class="row">
-        <div class="box-1">
-            <div class="col-1">
-                <img src="images/gallery-1.jpg" alt="">
+    <div class="category">
+        <h1 class="mens" id="mens-wear">MEN'S WEAR</h1>
+        <div class="row">
+            <div class="box-1">
+                <div class="col-1">
+                    <img src="images/gallery-1.jpg" alt="">
+                </div>
+                <h3 style="margin-bottom: 10px; margin-top: -10px;">PUMA</h3>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p>&#8377; 1250</p>
+                <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
+                <button>Add To Cart</button>
             </div>
-            <h3 style="margin-bottom: 10px; margin-top: -10px;">PUMA</h3>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <p>&#8377; 1250</p>
-            <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
-            <button>Add To Cart</button>
-        </div>
-        <div class="box-1">
-            <div class="col-1">
-                <img src="images/product-3.jpg" alt="">
+            <div class="box-1">
+                <div class="col-1">
+                    <img src="images/product-3.jpg" alt="">
+                </div>
+                <h3 style="margin-bottom: 10px; margin-top: -10px;">BENETTON</h3>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p>&#8377; 1050</p>
+                <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
+                <button>Add To Cart</button>
             </div>
-            <h3 style="margin-bottom: 10px; margin-top: -10px;">BENETTON</h3>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <p>&#8377; 1050</p>
-            <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
-            <button>Add To Cart</button>
-        </div>
-        <div class="box-1">
-            <div class="col-1">
-                <img src="images/mens jeans-1.jpg" alt="">
+            <div class="box-1">
+                <div class="col-1">
+                    <img src="images/mens jeans-1.jpg" alt="">
+                </div>
+                <h3 style="margin-bottom: 10px; margin-top: -10px;">HIGHLANDER</h3>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p>&#8377; 1150</p>
+                <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
+                <button>Add To Cart</button>
             </div>
-            <h3 style="margin-bottom: 10px; margin-top: -10px;">HIGHLANDER</h3>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <p>&#8377; 1150</p>
-            <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
-            <button>Add To Cart</button>
         </div>
-    </div>
 
 
-    <div class="row">
-        <div class="box-1">
-            <div class="col-1">
-                <img src="images/mens wear.webp" alt="">
+        <div class="row">
+            <div class="box-1">
+                <div class="col-1">
+                    <img src="images/mens wear.webp" alt="">
+                </div>
+                <h3 style="margin-bottom: 10px; margin-top: -10px;">TOMMY HILFIGER</h3>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p>&#8377; 1150</p>
+                <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
+                <button>Add To Cart</button>
             </div>
-            <h3 style="margin-bottom: 10px; margin-top: -10px;">TOMMY HILFIGER</h3>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <p>&#8377; 1150</p>
-            <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
-            <button>Add To Cart</button>
-        </div>
-        <div class="box-1">
-            <div class="col-1">
-                <img src="images/mens wear-1.jpg" alt="">
+            <div class="box-1">
+                <div class="col-1">
+                    <img src="images/mens wear-1.jpg" alt="">
+                </div>
+                <h3 style="margin-bottom: 10px; margin-top: -10px;">PAN AMERICA</h3>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p>&#8377; 1150</p>
+                <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
+                <button>Add To Cart</button>
             </div>
-            <h3 style="margin-bottom: 10px; margin-top: -10px;">PAN AMERICA</h3>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <p>&#8377; 1150</p>
-            <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
-            <button>Add To Cart</button>
-        </div>
-        <div class="box-1">
-            <div class="col-1">
-                <img src="images/mens jeans.jpg" alt="">
+            <div class="box-1">
+                <div class="col-1">
+                    <img src="images/mens jeans.jpg" alt="">
+                </div>
+                <h3 style="margin-bottom: 10px; margin-top: -10px;">LEE COOPER</h3>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p>&#8377; 1150</p>
+                <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
+                <button>Add To Cart</button>
             </div>
-            <h3 style="margin-bottom: 10px; margin-top: -10px;">LEE COOPER</h3>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <p>&#8377; 1150</p>
-            <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
-            <button>Add To Cart</button>
         </div>
     </div>
-</div>
 
 
 <!-------------WOMENS WEAR-------------->
 
 
-<div class="category">
-    <h1 class="women">WOMEN'S WEAR</h1>
-    <div class="row">
-        <div class="box-1">
-            <div class="col-1">
-                <img src="images/womens wear.jpg" alt="">
+    <div class="category">
+        <h1 class="women" id="womens-wear">WOMEN'S WEAR</h1>
+        <div class="row">
+            <div class="box-1">
+                <div class="col-1">
+                    <img src="images/womens wear.jpg" alt="">
+                </div>
+                <h3 style="margin-bottom: 10px; margin-top: -10px;">BLACK TOP</h3>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p>&#8377; 1250</p>
+                <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
+                <button>Add To Cart</button>
             </div>
-            <h3 style="margin-bottom: 10px; margin-top: -10px;">BLACK TOP</h3>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <p>&#8377; 1250</p>
-            <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
-            <button>Add To Cart</button>
+            <div class="box-1">
+                <div class="col-1">
+                    <img src="images/womens wear-1.jpg" alt="">
+                </div>
+                <h3 style="margin-bottom: 10px; margin-top: -10px;">PARTY WEAR</h3>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p>&#8377; 2350</p>
+                <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
+                <button>Add To Cart</button>
+            </div>
+            <div class="box-1">
+                <div class="col-1">
+                    <img src="images/womens wear-2.jpg" alt="">
+                </div>
+                <h3 style="margin-bottom: 10px; margin-top: -10px;">WEDDING WEAR</h3>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p>&#8377; 2530</p>
+                <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
+                <button>Add To Cart</button>
+            </div>
         </div>
-        <div class="box-1">
-            <div class="col-1">
-                <img src="images/womens wear-1.jpg" alt="">
+        <div class="row">
+            <div class="box-1">
+                <div class="col-1">
+                    <img src="images/womens wear-3.jpg" alt="">
+                </div>
+                <h3 style="margin-bottom: 10px; margin-top: -10px;">WOMEN'S CASUAL</h3>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p>&#8377; 1050</p>
+                <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
+                <button>Add To Cart</button>
             </div>
-            <h3 style="margin-bottom: 10px; margin-top: -10px;">PARTY WEAR</h3>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <p>&#8377; 2350</p>
-            <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
-            <button>Add To Cart</button>
-        </div>
-        <div class="box-1">
-            <div class="col-1">
-                <img src="images/womens wear-2.jpg" alt="">
+            <div class="box-1">
+                <div class="col-1">
+                    <img src="images/womens wear-4.jpg" alt="">
+                </div>
+                <h3 style="margin-bottom: 10px; margin-top: -10px;">WEDDING WEAR</h3>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p>&#8377; 2050</p>
+                <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
+                <button>Add To Cart</button>
             </div>
-            <h3 style="margin-bottom: 10px; margin-top: -10px;">WEDDING WEAR</h3>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <p>&#8377; 2530</p>
-            <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
-            <button>Add To Cart</button>
+            <div class="box-1">
+                <div class="col-1">
+                    <img src="images/category-3.jpg" alt="">
+                </div>
+                <h3 style="margin-bottom: 10px; margin-top: -10px;">ADIDAS T-SHIRT</h3>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p>&#8377; 1250</p>
+                <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
+                <button>Add To Cart</button>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="box-1">
-            <div class="col-1">
-                <img src="images/womens wear-3.jpg" alt="">
-            </div>
-            <h3 style="margin-bottom: 10px; margin-top: -10px;">WOMEN'S CASUAL</h3>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <p>&#8377; 1050</p>
-            <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
-            <button>Add To Cart</button>
-        </div>
-        <div class="box-1">
-            <div class="col-1">
-                <img src="images/womens wear-4.jpg" alt="">
-            </div>
-            <h3 style="margin-bottom: 10px; margin-top: -10px;">WEDDING WEAR</h3>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <p>&#8377; 2050</p>
-            <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
-            <button>Add To Cart</button>
-        </div>
-        <div class="box-1">
-            <div class="col-1">
-                <img src="images/category-3.jpg" alt="">
-            </div>
-            <h3 style="margin-bottom: 10px; margin-top: -10px;">ADIDAS T-SHIRT</h3>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <p>&#8377; 1250</p>
-            <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
-            <button>Add To Cart</button>
-        </div>
-    </div>
-</div>
 
 
 
 <!-----------------DEAL OF THE DAY------------------------->
-<div class="offer">
-    <div class="row-2">
-        <h1 class="deal">DEAL OF THE DAY</h1>
-        <div class="box-2">
-            <div class="col-3">
-                <img src="images/deal1.png">
-            </div>
-            <div class="col-4">
-                <p>EXCLUSIVELY AVAILABLE</p>
-                <h1>FOSSILE NATE CHRONOGRAPH</h1>
-                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt similique accusamus cupiditate id, blanditiis dignissimos <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, aut. </small>
-                <a href="" class="btn" id="btn1">BUY NOW</a>
+
+
+    <div class="offer">
+        <div class="row-2">
+            <h1 class="deal">DEAL OF THE DAY</h1>
+            <div class="box-2">
+                <div class="col-3">
+                    <img src="images/deal1.png">
+                </div>
+                <div class="col-4">
+                    <p>EXCLUSIVELY AVAILABLE</p>
+                    <h1>FOSSILE NATE CHRONOGRAPH</h1>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt similique accusamus cupiditate id, blanditiis dignissimos <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, aut. </small>
+                    <a href="" class="btn" id="btn1">BUY NOW</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
 
 
 <!--------------------FOOT WEAR-------------->
 
 
-<div class="category">
-    <h1 class="foot">FOOT WEAR</h1>
-    <div class="row">
-        <div class="box-1">
-            <div class="col-1">
-                <img src="images/foot wear-2.webp" alt="">
+    <div class="category">
+        <h1 class="foot" id="foot-wear">FOOT WEAR</h1>
+        <div class="row">
+            <div class="box-1">
+                <div class="col-1">
+                    <img src="images/foot wear-2.webp" alt="">
+                </div>
+                <h3 style="margin-bottom: 10px; margin-top: -10px;">USPA</h3>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p>&#8377; 2550</p>
+                <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
+                <button>Add To Cart</button>
             </div>
-            <h3 style="margin-bottom: 10px; margin-top: -10px;">USPA</h3>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <p>&#8377; 2550</p>
-            <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
-            <button>Add To Cart</button>
-        </div>
-        <div class="box-1">
-            <div class="col-1">
-                <img src="images/product-10.jpg" alt="">
+            <div class="box-1">
+                <div class="col-1">
+                    <img src="images/product-10.jpg" alt="">
+                </div>
+                <h3 style="margin-bottom: 10px; margin-top: -10px;">PUMA</h3>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p>&#8377; 1250</p>
+                <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
+                <button>Add To Cart</button>
             </div>
-            <h3 style="margin-bottom: 10px; margin-top: -10px;">PUMA</h3>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <p>&#8377; 1250</p>
-            <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
-            <button>Add To Cart</button>
-        </div>
-        <div class="box-1">
-            <div class="col-1">
-                <img src="images/foot wear.jpg" alt="">
+            <div class="box-1">
+                <div class="col-1">
+                    <img src="images/foot wear.jpg" alt="">
+                </div>
+                <h3 style="margin-bottom: 10px; margin-top: -10px;">WOOD LAND</h3>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p>&#8377; 1850</p>
+                <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
+                <button>Add To Cart</button>
             </div>
-            <h3 style="margin-bottom: 10px; margin-top: -10px;">WOOD LAND</h3>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <p>&#8377; 1850</p>
-            <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
-            <button>Add To Cart</button>
         </div>
-    </div>
 
 
-    <div class="row">
-        <div class="box-1">
-            <div class="col-1">
-                <img src="images/foot wear-3.jpg" alt="">
+        <div class="row">
+            <div class="box-1">
+                <div class="col-1">
+                    <img src="images/foot wear-3.jpg" alt="">
+                </div>
+                <h3 style="margin-bottom: 10px; margin-top: -10px;">WOMEN'S CASUAL</h3>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p>&#8377; 1050</p>
+                <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
+                <button>Add To Cart</button>
             </div>
-            <h3 style="margin-bottom: 10px; margin-top: -10px;">WOMEN'S CASUAL</h3>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <p>&#8377; 1050</p>
-            <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
-            <button>Add To Cart</button>
-        </div>
-        <div class="box-1">
-            <div class="col-1">
-                <img src="images/foot wear-4.jpg" alt="">
+            <div class="box-1">
+                <div class="col-1">
+                    <img src="images/foot wear-4.jpg" alt="">
+                </div>
+                <h3 style="margin-bottom: 10px; margin-top: -10px;">ASIAN</h3>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p>&#8377; 1350</p>
+                <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
+                <button>Add To Cart</button>
             </div>
-            <h3 style="margin-bottom: 10px; margin-top: -10px;">ASIAN</h3>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <p>&#8377; 1350</p>
-            <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
-            <button>Add To Cart</button>
-        </div>
-        <div class="box-1">
-            <div class="col-1">
-                <img src="images/foot wear-5.jpg" alt="">
+            <div class="box-1">
+                <div class="col-1">
+                    <img src="images/foot wear-5.jpg" alt="">
+                </div>
+                <h3 style="margin-bottom: 10px; margin-top: -10px;">DLORDS</h3>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <p>&#8377; 1450</p>
+                <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
+                <button>Add To Cart</button>
             </div>
-            <h3 style="margin-bottom: 10px; margin-top: -10px;">DLORDS</h3>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <p>&#8377; 1450</p>
-            <button style="margin-bottom: 10px; margin-top: 10px; margin-right: 6px;">Buy Now</button>
-            <button>Add To Cart</button>
         </div>
     </div>
-</div>
 
 
 
@@ -351,7 +361,7 @@
 
 
 <div class="category">
-    <h1 class="accessories">ACCESSORIES</h1>
+    <h1 class="accessories" id="accessories">ACCESSORIES</h1>
     <div class="row">
         <div class="box-1">
             <div class="col-1">
@@ -440,6 +450,121 @@
 </div>
 
 
+
+<!-----------------review---------------->
+
+
+<section class="review" id="reviews">
+    <div class="review-col-1">
+        <h3>REVIEWS</h3>
+        <h1>CLIENT SAYS</h1>
+    </div>
+    <div class="review-box-container">
+        <div class="review-box">
+            <div class="box-top">
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/bussiness-man.png" alt="">
+                    </div>
+                    <div class="username">
+                        <strong>JUBAIR</strong>
+                        <span>@jubairahmed_3000</span>
+                    </div>
+                </div>
+                <div class="review-1">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+            <div class="comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, totam eum delectus consectetur voluptatibus, explicabo alias magni tenetur quaerat error magnam molestiae aliquid nostrum nobis aperiam. Ratione enim atque fugit!</p>
+            </div>
+        </div>
+
+
+        <div class="review-box">
+            <div class="box-top">
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/man.png" alt="">
+                    </div>
+                    <div class="username">
+                        <strong>NEHRA</strong>
+                        <span>@nehrasais_6136</span>
+                    </div>
+                </div>
+                <div class="review-1">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, totam eum delectus consectetur voluptatibus, explicabo alias magni tenetur quaerat error magnam molestiae aliquid nostrum nobis aperiam. Ratione enim atque fugit!</p>
+            </div>
+        </div>
+
+
+        <div class="review-box">
+            <div class="box-top">
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/woman.png" alt="">
+                    </div>
+                    <div class="username">
+                        <strong>HARSHINI</strong>
+                        <span>@harshini_harshi_1314</span>
+                    </div>
+                </div>
+                <div class="review-1">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, totam eum delectus consectetur voluptatibus, explicabo alias magni tenetur quaerat error magnam molestiae aliquid nostrum nobis aperiam. Ratione enim atque fugit!</p>
+            </div>
+        </div>
+
+
+
+        <div class="review-box">
+            <div class="box-top">
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/girl.png" alt="">
+                    </div>
+                    <div class="username">
+                        <strong>GAYATHRI</strong>
+                        <span>@gaye3296</span>
+                    </div>
+                </div>
+                <div class="review-1">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+            <div class="comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, totam eum delectus consectetur voluptatibus, explicabo alias magni tenetur quaerat error magnam molestiae aliquid nostrum nobis aperiam. Ratione enim atque fugit!</p>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+
 <!-----------footer------------>
 
 
@@ -478,6 +603,5 @@
         </div>
     </div>
 </div>
-
 </body>
 </html>
